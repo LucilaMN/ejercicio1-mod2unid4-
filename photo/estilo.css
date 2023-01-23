@@ -1,0 +1,40 @@
+*{
+    background: grey;
+    padding: 0px
+    margin: 0px;
+}
+body{
+    margin: 0px auto;
+    padding: 0px;
+    background-color: grey;
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    text-decoration-line: underline;
+}
+.galeria1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    object-fit: contain;
+    float: left;
+}
+.galeria2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
